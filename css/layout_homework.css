@@ -1,0 +1,71 @@
+.cart-background {
+  width: 100%;
+  background-color: #c2d3de;
+  padding: 30px;
+}
+
+.cart-table {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+/* nth-child(n) n번쩨에 등장하는 요소만 스타일링 할 때 */
+.cart-table th:nth-child(2) {
+  width: 400px;
+}
+
+td,
+th {
+  /* border: 1px solid black; */
+}
+
+.cart-table td {
+  padding: 15px;
+  border-bottom: 1px solid #c2d3de;
+}
+
+.cell-long {
+  width: 700px;
+}
+
+.btn {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+}
+
+/* psesudo class */
+/* 마우스 올렸을때 */
+.btn:hover {
+  background-color: chocolate;
+}
+
+/* 마우스 클릭 후 유지 */
+.btn:focus {
+  background-color: grey;
+}
+
+/* 마우스 클릭 할 때 */
+.btn:active {
+  background-color: brown;
+}
+
+.custom-link {
+  text-decoration: none;
+}
+
+.custom-link:link {
+  color: aqua;
+}
+
+.custom-link:visited {
+  color: black;
+}
